@@ -1,0 +1,4 @@
+# Optional TensorBoard output from train.py.
+tensorboard==2.17.1
+# Optional utils/make_depth_scale.py preprocessing.
+joblib==1.4.2

@@ -1,0 +1,25 @@
+*.pyc
+.vscode
+output
+build
+diff_rasterization/diff_rast.egg-info
+diff_rasterization/dist
+tensorboard_3d
+screenshots
+
+# Downloaded by install.sh; PerspectiveFields prohibits redistribution.
+/PerspectiveFields/
+
+# Generated files and local experiment data.
+__pycache__/
+*.so
+*.pyd
+*.egg-info/
+dist/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.ply
+*.npz
+.pytest_cache/

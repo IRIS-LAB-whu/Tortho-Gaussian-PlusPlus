@@ -1,0 +1,31 @@
+# Preserve old repository histories locally.
+.git.backup/
+.gitmodules
+
+# Downloaded dependencies, local tools, and duplicate archives.
+/Tortho-Gaussian++render/PerspectiveFields/
+/Tortho-Gaussian++render/external/
+/Tortho-Gaussian++render/pythonProject/
+/Tortho-Gaussian++render/submodules/1/
+/Tortho-Gaussian++render/submodules/*-main.zip
+
+# Generated files and local configuration.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+*.so
+*.log
+*.pth
+*.pt
+*.ckpt
+*.ply
+*.npz
+.venv/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store

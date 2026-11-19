@@ -1,0 +1,23 @@
+# Run from this directory: conda env create -f environment.yml
+# Then: conda activate tortho-train && bash install.sh
+# CUDA extensions are built separately, after PyTorch is installed.
+name: TGPP-train
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.8.20
+  - pip=24.3.1
+  - setuptools=69.5.1
+  - wheel
+  - ninja
+  - pytorch::pytorch=2.0.1=py3.8_cuda11.8_cudnn8.7.0_0
+  - pytorch::torchvision=0.15.2=py38_cu118
+  - pytorch-cuda=11.8
+  - numpy=1.24.4
+  - pillow=10.4.0
+  - plyfile=0.8.1
+  - tqdm=4.67.1
+  - pip:
+      - opencv-python-headless==4.10.0.84
